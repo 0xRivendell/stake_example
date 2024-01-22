@@ -1,0 +1,15 @@
+{
+  "name": "stake",
+  "version": "1.0.0",
+  "description": "Example letting dapps add staking functionality with 2 lines of code",
+  "main": "index.js",
+  "author": "Shlok D. Mange",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/server.js"
+  }
+}
