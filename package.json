@@ -6,10 +6,17 @@
   "author": "Shlok D. Mange",
   "license": "MIT",
   "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/wallet": "^5.7.0",
+    "@rivendell/defi": "^1.0.31",
     "typescript": "^5.3.3"
   },
   "scripts": {
     "watch": "tsc -w",
     "dev": "nodemon dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "dotenv": "^16.3.2"
   }
 }
